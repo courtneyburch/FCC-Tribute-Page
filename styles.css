@@ -5,6 +5,8 @@
 }
 html{
     font-family: 'Quicksand', sans-serif;
+    background: rgb(226,223,226);
+    background: radial-gradient(circle, rgba(226,223,226,1) 0%, rgba(245,111,115,1) 100%);
 }
 #img-div{
     text-align: center;
@@ -14,9 +16,42 @@ html{
 h1, h2, h3, h4, h5, h6{
     text-align: center;
 }
-
+header{
+    padding: 2em;
+}
 header h5{
     margin: 0;
-
 }
+.content-2{
+    display: flex;
+}
+.content-2 h5{
+    margin: -3px;
+    
+}
+.content-2 img{
+    width: 100%;
+    padding: 0.5em;
+}
+
+section{
+    margin: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+footer a{
+    text-decoration: none;
+}
+footer a:hover, footer a:focus{
+    text-decoration: underline;
+}
+footer a:visited{
+    color: black;
+}
+@media only screen and (max-width: 800px){
+    .desktop{
+        display: none;
+    
+}
+
 
