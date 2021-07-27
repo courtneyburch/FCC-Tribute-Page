@@ -6,7 +6,7 @@
 html{
     font-family: 'Quicksand', sans-serif;
     background: rgb(226,223,226);
-    background: radial-gradient(circle, rgba(226,223,226,1) 0%, rgba(245,111,115,1) 100%);
+    background: linear-gradient(0deg, rgba(226,223,226,1) 50%, rgba(111,245,193,1) 100%);
 }
 #img-div{
     text-align: center;
